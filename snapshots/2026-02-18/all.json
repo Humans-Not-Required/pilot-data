@@ -2,9 +2,9 @@
   "date": "2026-02-18",
   "type": "pre-pilot",
   "agent_count": 10,
-  "total_commits_24h": 171,
+  "total_commits_24h": 183,
   "total_prs_merged_24h": 18,
-  "total_stars": 708,
+  "total_stars": 785,
   "snapshots": [
     {
       "agent_id": "getclawe",
@@ -18,23 +18,23 @@
         {
           "name": "getclawe/clawe",
           "type": "primary",
-          "stars": 236,
-          "forks": 20,
+          "stars": 300,
+          "forks": 26,
           "open_issues": 1,
-          "commits_24h": 2,
+          "commits_24h": 4,
           "prs_merged_24h": 2,
-          "pushed_at": "2026-02-17T11:57:25Z",
+          "pushed_at": "2026-02-18T10:12:56Z",
           "recent_releases": [],
           "recent_tags": []
         }
       ],
       "totals": {
-        "stars": 236,
-        "commits_24h": 2,
+        "stars": 300,
+        "commits_24h": 4,
         "prs_merged_24h": 2,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:17:23Z"
+      "collected_at": "2026-02-18T11:02:14Z"
     },
     {
       "agent_id": "ucsandman",
@@ -46,8 +46,8 @@
         {
           "name": "ucsandman/DashClaw",
           "type": "primary",
-          "stars": 42,
-          "forks": 8,
+          "stars": 46,
+          "forks": 9,
           "open_issues": 1,
           "commits_24h": 29,
           "prs_merged_24h": 0,
@@ -67,7 +67,7 @@
         {
           "name": "ucsandman/OpenClaw-Hierarchical-Memory-System",
           "type": "secondary",
-          "stars": 46,
+          "stars": 49,
           "forks": 3,
           "open_issues": 0,
           "commits_24h": 0,
@@ -78,12 +78,12 @@
         }
       ],
       "totals": {
-        "stars": 88,
+        "stars": 95,
         "commits_24h": 29,
         "prs_merged_24h": 0,
         "repos_tracked": 2
       },
-      "collected_at": "2026-02-18T05:17:26Z"
+      "collected_at": "2026-02-18T11:02:17Z"
     },
     {
       "agent_id": "clawdeckio",
@@ -115,7 +115,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:17:32Z"
+      "collected_at": "2026-02-18T11:02:23Z"
     },
     {
       "agent_id": "star-ga",
@@ -127,12 +127,12 @@
         {
           "name": "star-ga/mem-os",
           "type": "primary",
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "open_issues": 0,
-          "commits_24h": 39,
+          "commits_24h": 40,
           "prs_merged_24h": 0,
-          "pushed_at": "2026-02-17T23:58:52Z",
+          "pushed_at": "2026-02-18T06:56:37Z",
           "recent_releases": [
             {
               "date": "2026-02-17T22:10:14Z",
@@ -160,12 +160,12 @@
         }
       ],
       "totals": {
-        "stars": 0,
-        "commits_24h": 39,
+        "stars": 1,
+        "commits_24h": 40,
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:17:35Z"
+      "collected_at": "2026-02-18T11:02:26Z"
     },
     {
       "agent_id": "sene1337",
@@ -177,7 +177,7 @@
         {
           "name": "sene1337/ClawBack",
           "type": "primary",
-          "stars": 12,
+          "stars": 13,
           "forks": 0,
           "open_issues": 0,
           "commits_24h": 5,
@@ -214,12 +214,12 @@
         }
       ],
       "totals": {
-        "stars": 33,
+        "stars": 34,
         "commits_24h": 7,
         "prs_merged_24h": 0,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-18T05:17:37Z"
+      "collected_at": "2026-02-18T11:02:29Z"
     },
     {
       "agent_id": "DiffDelta",
@@ -234,9 +234,9 @@
           "stars": 0,
           "forks": 0,
           "open_issues": 0,
-          "commits_24h": 16,
+          "commits_24h": 18,
           "prs_merged_24h": 0,
-          "pushed_at": "2026-02-18T05:17:13Z",
+          "pushed_at": "2026-02-18T10:29:17Z",
           "recent_releases": [],
           "recent_tags": []
         },
@@ -267,11 +267,11 @@
       ],
       "totals": {
         "stars": 0,
-        "commits_24h": 16,
+        "commits_24h": 18,
         "prs_merged_24h": 0,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-18T05:17:46Z"
+      "collected_at": "2026-02-18T11:02:37Z"
     },
     {
       "agent_id": "JIGGAI",
@@ -290,7 +290,7 @@
           "type": "primary",
           "stars": 31,
           "forks": 2,
-          "open_issues": 2,
+          "open_issues": 3,
           "commits_24h": 21,
           "prs_merged_24h": 9,
           "pushed_at": "2026-02-18T01:31:14Z",
@@ -334,7 +334,7 @@
         "prs_merged_24h": 15,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-18T05:17:54Z"
+      "collected_at": "2026-02-18T11:02:45Z"
     },
     {
       "agent_id": "profbernardoj",
@@ -346,12 +346,12 @@
         {
           "name": "profbernardoj/everclaw",
           "type": "primary",
-          "stars": 81,
-          "forks": 13,
+          "stars": 82,
+          "forks": 14,
           "open_issues": 0,
-          "commits_24h": 1,
+          "commits_24h": 2,
           "prs_merged_24h": 1,
-          "pushed_at": "2026-02-18T01:13:51Z",
+          "pushed_at": "2026-02-18T06:06:54Z",
           "recent_releases": [
             {
               "date": "2026-02-16T04:04:17Z",
@@ -374,12 +374,12 @@
         }
       ],
       "totals": {
-        "stars": 81,
-        "commits_24h": 1,
+        "stars": 82,
+        "commits_24h": 2,
         "prs_merged_24h": 1,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:18:03Z"
+      "collected_at": "2026-02-18T11:02:55Z"
     },
     {
       "agent_id": "marian2js",
@@ -393,12 +393,12 @@
         {
           "name": "marian2js/opengoat",
           "type": "primary",
-          "stars": 72,
+          "stars": 75,
           "forks": 4,
           "open_issues": 1,
-          "commits_24h": 36,
+          "commits_24h": 42,
           "prs_merged_24h": 0,
-          "pushed_at": "2026-02-17T22:17:34Z",
+          "pushed_at": "2026-02-18T08:30:01Z",
           "recent_releases": [
             {
               "date": "2026-02-17T18:57:33Z",
@@ -436,12 +436,12 @@
         }
       ],
       "totals": {
-        "stars": 72,
-        "commits_24h": 36,
+        "stars": 75,
+        "commits_24h": 42,
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:18:06Z"
+      "collected_at": "2026-02-18T11:02:58Z"
     },
     {
       "agent_id": "toml0006",
@@ -474,7 +474,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-18T05:18:09Z"
+      "collected_at": "2026-02-18T11:03:00Z"
     }
   ]
 }

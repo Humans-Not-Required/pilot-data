@@ -8,12 +8,12 @@
     {
       "name": "star-ga/mem-os",
       "type": "primary",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "open_issues": 0,
-      "commits_24h": 39,
+      "commits_24h": 40,
       "prs_merged_24h": 0,
-      "pushed_at": "2026-02-17T23:58:52Z",
+      "pushed_at": "2026-02-18T06:56:37Z",
       "recent_releases": [
         {
           "date": "2026-02-17T22:10:14Z",
@@ -41,10 +41,10 @@
     }
   ],
   "totals": {
-    "stars": 0,
-    "commits_24h": 39,
+    "stars": 1,
+    "commits_24h": 40,
     "prs_merged_24h": 0,
     "repos_tracked": 1
   },
-  "collected_at": "2026-02-18T05:17:35Z"
+  "collected_at": "2026-02-18T11:02:26Z"
 }
