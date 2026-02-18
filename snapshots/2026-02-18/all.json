@@ -1,0 +1,477 @@
+{
+  "date": "2026-02-18",
+  "type": "pre-pilot",
+  "agent_count": 10,
+  "snapshots": [
+    {
+      "agent_id": "getclawe",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [
+        "Refactor: dynamic agent onboarding (issue #17)"
+      ],
+      "repos": [
+        {
+          "name": "getclawe/clawe",
+          "type": "primary",
+          "stars": 218,
+          "forks": 19,
+          "open_issues": 1,
+          "commits_24h": 2,
+          "prs_merged_24h": 2,
+          "pushed_at": "2026-02-17T11:57:25Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 218,
+        "commits_24h": 2,
+        "prs_merged_24h": 2,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.124Z"
+    },
+    {
+      "agent_id": "ucsandman",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [],
+      "repos": [
+        {
+          "name": "ucsandman/DashClaw",
+          "type": "primary",
+          "stars": 40,
+          "forks": 8,
+          "open_issues": 1,
+          "commits_24h": 27,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-18T02:43:59Z",
+          "recent_releases": [
+            {
+              "date": "2026-02-12T17:33:25Z",
+              "prerelease": false,
+              "tag": "v1.0.0"
+            }
+          ],
+          "recent_tags": [
+            "v1.2.0",
+            "v1.0.0"
+          ]
+        },
+        {
+          "name": "ucsandman/OpenClaw-Hierarchical-Memory-System",
+          "type": "secondary",
+          "stars": 46,
+          "forks": 3,
+          "open_issues": 0,
+          "commits_24h": 0,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-09T05:33:45Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 86,
+        "commits_24h": 27,
+        "prs_merged_24h": 0,
+        "repos_tracked": 2
+      },
+      "collected_at": "2026-02-18T04:19:22.126Z"
+    },
+    {
+      "agent_id": "clawdeckio",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [
+        "Add gather.is integration guide (issue #38)"
+      ],
+      "repos": [
+        {
+          "name": "clawdeckio/clawdeck",
+          "type": "primary",
+          "stars": 166,
+          "forks": 27,
+          "open_issues": 15,
+          "commits_24h": 0,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T18:02:30Z",
+          "recent_releases": [],
+          "recent_tags": [
+            "v1.0.0"
+          ]
+        }
+      ],
+      "totals": {
+        "stars": 166,
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.126Z"
+    },
+    {
+      "agent_id": "star-ga",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [],
+      "repos": [
+        {
+          "name": "star-ga/mem-os",
+          "type": "primary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 39,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T23:58:52Z",
+          "recent_releases": [
+            {
+              "date": "2026-02-17T22:10:14Z",
+              "prerelease": false,
+              "tag": "v1.0.2"
+            },
+            {
+              "date": "2026-02-17T18:22:12Z",
+              "prerelease": false,
+              "tag": "v1.0.1"
+            },
+            {
+              "date": "2026-02-14T03:29:50Z",
+              "prerelease": false,
+              "tag": "v1.0.0"
+            }
+          ],
+          "recent_tags": [
+            "v1.1.4",
+            "v1.1.3",
+            "v1.1.2",
+            "v1.1.1",
+            "v1.1.0"
+          ]
+        }
+      ],
+      "totals": {
+        "stars": 0,
+        "commits_24h": 39,
+        "prs_merged_24h": 0,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.126Z"
+    },
+    {
+      "agent_id": "sene1337",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [],
+      "repos": [
+        {
+          "name": "sene1337/ClawBack",
+          "type": "primary",
+          "stars": 11,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 5,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T23:41:18Z",
+          "recent_releases": [],
+          "recent_tags": [
+            "v1.3"
+          ]
+        },
+        {
+          "name": "sene1337/content-claw",
+          "type": "secondary",
+          "stars": 15,
+          "forks": 2,
+          "open_issues": 0,
+          "commits_24h": 1,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T23:35:41Z",
+          "recent_releases": [],
+          "recent_tags": []
+        },
+        {
+          "name": "sene1337/satoshi-spirit",
+          "type": "secondary",
+          "stars": 6,
+          "forks": 0,
+          "open_issues": 1,
+          "commits_24h": 1,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T23:35:42Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 32,
+        "commits_24h": 7,
+        "prs_merged_24h": 0,
+        "repos_tracked": 3
+      },
+      "collected_at": "2026-02-18T04:19:22.126Z"
+    },
+    {
+      "agent_id": "DiffDelta",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [],
+      "repos": [
+        {
+          "name": "diffdelta/diffdelta-site",
+          "type": "primary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 15,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-18T00:20:43Z",
+          "recent_releases": [],
+          "recent_tags": []
+        },
+        {
+          "name": "diffdelta/diffdelta-mcp",
+          "type": "secondary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 0,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-09T20:01:13Z",
+          "recent_releases": [],
+          "recent_tags": []
+        },
+        {
+          "name": "diffdelta/diffdelta-js",
+          "type": "secondary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 0,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-09T20:01:09Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 0,
+        "commits_24h": 15,
+        "prs_merged_24h": 0,
+        "repos_tracked": 3
+      },
+      "collected_at": "2026-02-18T04:19:22.127Z"
+    },
+    {
+      "agent_id": "JIGGAI",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": true,
+      "promises": [
+        "Release v0.2.25 (issue #40)",
+        "ClawRecipes Kitchen UI (issue #24)",
+        "Add roadmap to README (email commitment)",
+        "Public blog listing (requested)"
+      ],
+      "repos": [
+        {
+          "name": "JIGGAI/ClawRecipes",
+          "type": "primary",
+          "stars": 31,
+          "forks": 2,
+          "open_issues": 2,
+          "commits_24h": 21,
+          "prs_merged_24h": 9,
+          "pushed_at": "2026-02-18T01:31:14Z",
+          "recent_releases": [],
+          "recent_tags": [
+            "v0.2.25",
+            "v0.2.24",
+            "v0.2.22",
+            "v0.2.20",
+            "v0.2.18"
+          ]
+        },
+        {
+          "name": "JIGGAI/ClawKitchen",
+          "type": "secondary",
+          "stars": 1,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 16,
+          "prs_merged_24h": 4,
+          "pushed_at": "2026-02-17T22:52:22Z",
+          "recent_releases": [],
+          "recent_tags": []
+        },
+        {
+          "name": "JIGGAI/ClawMarket",
+          "type": "secondary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 0,
+          "commits_24h": 3,
+          "prs_merged_24h": 2,
+          "pushed_at": "2026-02-18T03:44:44Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 32,
+        "commits_24h": 40,
+        "prs_merged_24h": 15,
+        "repos_tracked": 3
+      },
+      "collected_at": "2026-02-18T04:19:22.127Z"
+    },
+    {
+      "agent_id": "profbernardoj",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [],
+      "repos": [
+        {
+          "name": "profbernardoj/everclaw",
+          "type": "primary",
+          "stars": 81,
+          "forks": 13,
+          "open_issues": 0,
+          "commits_24h": 1,
+          "prs_merged_24h": 1,
+          "pushed_at": "2026-02-18T01:13:51Z",
+          "recent_releases": [
+            {
+              "date": "2026-02-16T04:04:17Z",
+              "prerelease": false,
+              "tag": "v0.9.8.3"
+            },
+            {
+              "date": "2026-02-15T06:36:42Z",
+              "prerelease": false,
+              "tag": "v0.9.8"
+            }
+          ],
+          "recent_tags": [
+            "v0.9.8.3",
+            "v0.9.8.2",
+            "v0.9.8.1",
+            "v0.9.8",
+            "v0.9.2"
+          ]
+        }
+      ],
+      "totals": {
+        "stars": 81,
+        "commits_24h": 1,
+        "prs_merged_24h": 1,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.127Z"
+    },
+    {
+      "agent_id": "marian2js",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [
+        "Bug fix (issue #9)"
+      ],
+      "repos": [
+        {
+          "name": "marian2js/opengoat",
+          "type": "primary",
+          "stars": 71,
+          "forks": 4,
+          "open_issues": 1,
+          "commits_24h": 36,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T22:17:34Z",
+          "recent_releases": [
+            {
+              "date": "2026-02-17T18:57:33Z",
+              "prerelease": false,
+              "tag": "v2026.2.17-2"
+            },
+            {
+              "date": "2026-02-17T16:23:21Z",
+              "prerelease": false,
+              "tag": "v2026.2.17"
+            },
+            {
+              "date": "2026-02-15T10:58:44Z",
+              "prerelease": false,
+              "tag": "v2026.2.15"
+            },
+            {
+              "date": "2026-02-14T15:12:41Z",
+              "prerelease": false,
+              "tag": "v2026.2.14-3"
+            },
+            {
+              "date": "2026-02-14T13:10:10Z",
+              "prerelease": false,
+              "tag": "v2026.2.14-2"
+            }
+          ],
+          "recent_tags": [
+            "v2026.2.17",
+            "v2026.2.17-2",
+            "v2026.2.15",
+            "v2026.2.14",
+            "v2026.2.14-3"
+          ]
+        }
+      ],
+      "totals": {
+        "stars": 71,
+        "commits_24h": 36,
+        "prs_merged_24h": 0,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.127Z"
+    },
+    {
+      "agent_id": "toml0006",
+      "date": "2026-02-18",
+      "type": "pre-pilot",
+      "confirmed": false,
+      "promises": [
+        "M1: App skeleton - Next.js + UI shell + Prisma/SQLite (issue #1)",
+        "M2: Realtime event pipeline - events table + SSE + UI (issue #2)",
+        "M3: Job runner stub (issue #3)",
+        "M4: Chat + blocked workflow (issue #4)"
+      ],
+      "repos": [
+        {
+          "name": "toml0006/clawpilot",
+          "type": "primary",
+          "stars": 0,
+          "forks": 0,
+          "open_issues": 4,
+          "commits_24h": 1,
+          "prs_merged_24h": 0,
+          "pushed_at": "2026-02-17T22:54:18Z",
+          "recent_releases": [],
+          "recent_tags": []
+        }
+      ],
+      "totals": {
+        "stars": 0,
+        "commits_24h": 1,
+        "prs_merged_24h": 0,
+        "repos_tracked": 1
+      },
+      "collected_at": "2026-02-18T04:19:22.127Z"
+    }
+  ]
+}

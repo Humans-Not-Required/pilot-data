@@ -1,0 +1,255 @@
+{
+  "pilot_id": "gerundium-trust-stack-v1",
+  "window": {
+    "start": "2026-02-19T00:00:00Z",
+    "end": "2026-02-25T23:59:59Z"
+  },
+  "baseline_collected_at": "2026-02-18T02:45:00Z",
+  "methodology": {
+    "pdr_formula": "PDR = Σ(delivered_scope_elements) / Σ(promised_scope_elements) * time_modifier",
+    "time_modifier": "1.0 if on_time, 0.8 if late, 0.5 if very_late",
+    "data_sources": [
+      "github_commits",
+      "github_releases",
+      "github_prs",
+      "github_issues",
+      "readme_claims",
+      "email_commitments"
+    ],
+    "observation_period": "7 days (Feb 19-25)",
+    "baseline_period": "7 days pre-pilot (Feb 11-18)"
+  },
+  "candidates": {
+    "getclawe": {
+      "display_name": "Guy Ben-Aharon (clawe)",
+      "score": 8,
+      "status": "emailed",
+      "primary_repo": "getclawe/clawe",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 212,
+        "forks": 18,
+        "open_issues": 1,
+        "commits_7d": 8,
+        "last_push": "2026-02-17T11:57:25Z",
+        "releases_recent": [],
+        "notable_activity": "Refactoring + mobile/image updates. Multi-contributor (PRs with #numbers). Steady but not hyper-active commit rate."
+      }
+    },
+    "ucsandman": {
+      "display_name": "Wes Sander (DashClaw)",
+      "score": 8,
+      "status": "emailed",
+      "primary_repo": "ucsandman/DashClaw",
+      "secondary_repos": [
+        "ucsandman/OpenClaw-Hierarchical-Memory-System",
+        "ucsandman/Agent-Task-Router"
+      ],
+      "baseline": {
+        "stars": 40,
+        "forks": 8,
+        "open_issues": 1,
+        "commits_7d": 100,
+        "last_push": "2026-02-18T02:31:42Z",
+        "releases_recent": [],
+        "notable_activity": "EXTREMELY active — 100+ commits in 7d. Security fixes (code scanning alerts), logo updates. Pushing at 2:30 AM UTC today. 14 total repos including governance kit, memory systems."
+      }
+    },
+    "clawdeckio": {
+      "display_name": "Andres (ClawDeck)",
+      "score": 7,
+      "status": "emailed",
+      "primary_repo": "clawdeckio/clawdeck",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 165,
+        "forks": 27,
+        "open_issues": 15,
+        "commits_7d": 0,
+        "last_push": "2026-02-17T18:02:30Z",
+        "releases_recent": [],
+        "notable_activity": "HIGH traction (165★, 27 forks) but recent commits are from early Feb (Feb 1-3). 15 open issues = backlog of intended work. Repo pushed Feb 17 but no commits since Feb 3 — possible non-code changes or branch activity."
+      }
+    },
+    "star-ga": {
+      "display_name": "Nikolai Nedovodin (STARGA Inc)",
+      "score": 7,
+      "status": "emailed",
+      "primary_repo": "star-ga/mem-os",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "commits_7d": 94,
+        "last_push": "2026-02-17T23:58:52Z",
+        "releases_recent": [
+          {
+            "tag": "v1.1.4",
+            "type": "tag"
+          },
+          {
+            "tag": "v1.1.3",
+            "type": "tag"
+          },
+          {
+            "tag": "v1.1.2",
+            "type": "tag"
+          },
+          {
+            "tag": "v1.0.2",
+            "date": "2026-02-17T22:10:14Z"
+          },
+          {
+            "tag": "v1.0.1",
+            "date": "2026-02-17T18:22:12Z"
+          },
+          {
+            "tag": "v1.0.0",
+            "date": "2026-02-14T03:29:50Z"
+          }
+        ],
+        "notable_activity": "HYPER-ACTIVE — 94 commits in 7d, 6 version tags (v1.0.0→v1.1.4 in 4 days). Audit fixes, CI hardening, LoCoMo accuracy benchmarks. Pre-ASI Systems. Zero dependencies philosophy."
+      }
+    },
+    "sene1337": {
+      "display_name": "Seneschal",
+      "score": 7,
+      "status": "emailed",
+      "secondary_repos": [],
+      "baseline": {
+        "clawback_stars": 11,
+        "content_claw_stars": 15,
+        "commits_7d_clawback": 15,
+        "commits_7d_content_claw": 9,
+        "total_commits_7d": 24,
+        "last_push": "2026-02-17T23:41:18Z",
+        "releases_recent": [
+          {
+            "tag": "v1.3",
+            "repo": "ClawBack"
+          }
+        ],
+        "notable_activity": "7 repos, security-focused. Adversarial audit fixes, skill publishing SOP, regression logging. Cross-platform sed fixes. Active across multiple repos simultaneously."
+      }
+    },
+    "DiffDelta": {
+      "display_name": "DiffDelta",
+      "score": 7,
+      "status": "emailed",
+      "primary_repo": "diffdelta/diffdelta-site",
+      "secondary_repos": [
+        "diffdelta/diffdelta-mcp",
+        "diffdelta/diffdelta-js",
+        "diffdelta/diffdelta-python"
+      ],
+      "baseline": {
+        "total_repos": 7,
+        "commits_7d_site": 100,
+        "commits_7d_mcp": 0,
+        "commits_7d_js": 0,
+        "total_commits_7d": 100,
+        "last_push": "2026-02-18T00:20:43Z",
+        "releases_recent": [],
+        "notable_activity": "MCP server + JS client shipped on npm (@diffdelta/mcp-server, @diffdelta/client). 46+ intelligence feed sources. Admin dashboard + error logging just added today. Site getting constant updates."
+      }
+    },
+    "JIGGAI": {
+      "display_name": "RJ Johnston (JIGGAI)",
+      "score": 6,
+      "status": "confirmed",
+      "primary_repo": "JIGGAI/ClawRecipes",
+      "secondary_repos": [
+        "JIGGAI/ClawKitchen",
+        "JIGGAI/ClawMarket"
+      ],
+      "baseline": {
+        "recipes_stars": 31,
+        "recipes_forks": 2,
+        "recipes_open_issues": 2,
+        "commits_7d_recipes": 100,
+        "commits_7d_kitchen": 99,
+        "commits_7d_market": 53,
+        "total_commits_7d": 252,
+        "last_push": "2026-02-18T01:31:14Z",
+        "releases_recent": [
+          {
+            "tag": "v0.2.24",
+            "date": "2026-02-17"
+          }
+        ],
+        "notable_activity": "HIGHEST velocity — 252 commits across 3 repos in 7d. v0.2.24 released, 39 PRs merged total. External contributor (TOFFster96). Community traction evident."
+      }
+    },
+    "profbernardoj": {
+      "display_name": "Bernardo Johnston (EverClaw)",
+      "score": 6,
+      "status": "emailed",
+      "primary_repo": "profbernardoj/everclaw",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 79,
+        "forks": 13,
+        "open_issues": 0,
+        "commits_7d": 50,
+        "last_push": "2026-02-18T01:13:51Z",
+        "releases_recent": [
+          {
+            "tag": "v0.9.8.3",
+            "date": "2026-02-16T04:04:17Z"
+          },
+          {
+            "tag": "v0.9.8",
+            "date": "2026-02-15T06:36:42Z"
+          }
+        ],
+        "notable_activity": "50 commits, 2 releases in 7d. Morpheus-Lumerin-Node v5.12.0 compatibility. Website redesign with Lovable. 31 total repos (includes platform-specific domains). Decentralized AI inference focus."
+      }
+    },
+    "marian2js": {
+      "display_name": "Mariano Pardo (OpenGoat)",
+      "score": 6,
+      "status": "emailed",
+      "primary_repo": "marian2js/opengoat",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 71,
+        "forks": 4,
+        "open_issues": 1,
+        "commits_7d": 100,
+        "last_push": "2026-02-17T22:17:34Z",
+        "releases_recent": [
+          {
+            "tag": "v2026.2.17-2",
+            "date": "2026-02-17T18:57:33Z"
+          },
+          {
+            "tag": "v2026.2.17",
+            "date": "2026-02-17T16:23:21Z"
+          },
+          {
+            "tag": "v2026.2.15",
+            "date": "2026-02-15T10:58:44Z"
+          }
+        ],
+        "notable_activity": "100 commits, 3 releases in 7d. Date-based versioning (v2026.2.17-2). Auth hardening, codex-provider autonomy fixes, UI polish. Also maintains opengoat.ai website and awesome-openclaw-skills."
+      }
+    },
+    "toml0006": {
+      "display_name": "Jackson Tomlinson (MiddleOut)",
+      "score": 6,
+      "status": "emailed",
+      "primary_repo": "toml0006/clawpilot",
+      "secondary_repos": [],
+      "baseline": {
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 4,
+        "commits_7d": 1,
+        "last_push": "2026-02-17T22:54:18Z",
+        "releases_recent": [],
+        "notable_activity": "Only 1 commit in 7d on clawpilot (but it was a BIG one — full PM cockpit build). 4 open issues = roadmap items. Also active on quota-pro-quo, ha-printer-health, claude-assist. Diverse project portfolio."
+      }
+    }
+  }
+}

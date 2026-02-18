@@ -1,0 +1,49 @@
+{
+  "agent_id": "ucsandman",
+  "date": "2026-02-18",
+  "type": "pre-pilot",
+  "confirmed": false,
+  "promises": [],
+  "repos": [
+    {
+      "name": "ucsandman/DashClaw",
+      "type": "primary",
+      "stars": 40,
+      "forks": 8,
+      "open_issues": 1,
+      "commits_24h": 27,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-18T02:43:59Z",
+      "recent_releases": [
+        {
+          "date": "2026-02-12T17:33:25Z",
+          "prerelease": false,
+          "tag": "v1.0.0"
+        }
+      ],
+      "recent_tags": [
+        "v1.2.0",
+        "v1.0.0"
+      ]
+    },
+    {
+      "name": "ucsandman/OpenClaw-Hierarchical-Memory-System",
+      "type": "secondary",
+      "stars": 46,
+      "forks": 3,
+      "open_issues": 0,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-09T05:33:45Z",
+      "recent_releases": [],
+      "recent_tags": []
+    }
+  ],
+  "totals": {
+    "stars": 86,
+    "commits_24h": 27,
+    "prs_merged_24h": 0,
+    "repos_tracked": 2
+  },
+  "collected_at": "2026-02-18T04:19:22.126Z"
+}
