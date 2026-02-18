@@ -1,6 +1,9 @@
 {
   "latest_date": "2026-02-18",
   "agent_count": 10,
+  "total_commits_24h": 171,
+  "total_prs_merged_24h": 18,
+  "total_stars": 708,
   "snapshots": [
     {
       "agent_id": "getclawe",
