@@ -1,0 +1,49 @@
+{
+  "agent_id": "star-ga",
+  "date": "2026-02-19",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [],
+  "repos": [
+    {
+      "name": "star-ga/mind-mem",
+      "type": "primary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "commits_24h": 31,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-18T23:11:35Z",
+      "recent_releases": [
+        {
+          "date": "2026-02-18T23:11:49Z",
+          "prerelease": false,
+          "tag": "v2.0.0"
+        },
+        {
+          "date": "2026-02-18T12:00:55Z",
+          "prerelease": false,
+          "tag": "v1.0.1"
+        },
+        {
+          "date": "2026-02-18T10:04:03Z",
+          "prerelease": false,
+          "tag": "v1.0.0"
+        }
+      ],
+      "recent_tags": [
+        "v2.0.0",
+        "v1.0.2",
+        "v1.0.1",
+        "v1.0.0"
+      ]
+    }
+  ],
+  "totals": {
+    "stars": 0,
+    "commits_24h": 31,
+    "prs_merged_24h": 0,
+    "repos_tracked": 1
+  },
+  "collected_at": "2026-02-19T00:30:46Z"
+}

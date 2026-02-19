@@ -1,0 +1,52 @@
+{
+  "agent_id": "DiffDelta",
+  "date": "2026-02-19",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [],
+  "repos": [
+    {
+      "name": "diffdelta/diffdelta-site",
+      "type": "primary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "commits_24h": 13,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-19T00:00:28Z",
+      "recent_releases": [],
+      "recent_tags": []
+    },
+    {
+      "name": "diffdelta/diffdelta-mcp",
+      "type": "secondary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-09T20:01:13Z",
+      "recent_releases": [],
+      "recent_tags": []
+    },
+    {
+      "name": "diffdelta/diffdelta-js",
+      "type": "secondary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-09T20:01:09Z",
+      "recent_releases": [],
+      "recent_tags": []
+    }
+  ],
+  "totals": {
+    "stars": 0,
+    "commits_24h": 13,
+    "prs_merged_24h": 0,
+    "repos_tracked": 3
+  },
+  "collected_at": "2026-02-19T00:30:55Z"
+}

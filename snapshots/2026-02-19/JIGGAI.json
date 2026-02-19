@@ -1,0 +1,65 @@
+{
+  "agent_id": "JIGGAI",
+  "date": "2026-02-19",
+  "type": "pilot",
+  "confirmed": true,
+  "promises": [
+    "Add architecture and contributor guide (issue #41)",
+    "Add roadmap to README (email commitment)",
+    "ClawRecipes Kitchen UI (issue #24)",
+    "Public blog listing (requested)",
+    "Release v0.2.25 (issue #40)",
+    "Release v0.2.25 — fix plugin metadata version (issue #40)"
+  ],
+  "repos": [
+    {
+      "name": "JIGGAI/ClawRecipes",
+      "type": "primary",
+      "stars": 37,
+      "forks": 2,
+      "open_issues": 3,
+      "commits_24h": 5,
+      "prs_merged_24h": 2,
+      "pushed_at": "2026-02-18T23:37:27Z",
+      "recent_releases": [],
+      "recent_tags": [
+        "v0.2.25",
+        "v0.2.24",
+        "v0.2.22",
+        "v0.2.20",
+        "v0.2.18"
+      ]
+    },
+    {
+      "name": "JIGGAI/ClawKitchen",
+      "type": "secondary",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 1,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-17T22:52:22Z",
+      "recent_releases": [],
+      "recent_tags": []
+    },
+    {
+      "name": "JIGGAI/ClawMarket",
+      "type": "secondary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "commits_24h": 85,
+      "prs_merged_24h": 8,
+      "pushed_at": "2026-02-19T00:10:00Z",
+      "recent_releases": [],
+      "recent_tags": []
+    }
+  ],
+  "totals": {
+    "stars": 38,
+    "commits_24h": 90,
+    "prs_merged_24h": 10,
+    "repos_tracked": 3
+  },
+  "collected_at": "2026-02-19T00:31:03Z"
+}
