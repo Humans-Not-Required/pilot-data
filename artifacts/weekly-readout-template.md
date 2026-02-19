@@ -30,7 +30,7 @@
 | ClawRecipes v0.2.25 | Tagged pre-pilot | ✅ Baseline | — |
 | _(add new promises as stated during pilot)_ | | | |
 
-**JIGGAI PDR:** `X.X` | **Trend:** ↑/↓/→
+**JIGGAI PDR (Day 1):** `1.0` | **Overall (Gerundium):** `82.6` | **Trend:** →
 
 ### star-ga / mind-mem
 
@@ -40,7 +40,7 @@
 | Tracking scoped to public events | Agreed scope | ✅ In bounds | — |
 | _(add new promises as stated during pilot)_ | | | |
 
-**star-ga PDR:** `X.X` | **Trend:** ↑/↓/→
+**star-ga PDR (Day 1):** `1.0` | **Overall (Gerundium):** `73.0` | **Trend:** →
 
 ### ucsandman / DashClaw
 
@@ -50,7 +50,7 @@
 | Visual action tracing | Stated Feb 19, not yet shipped | 🔄 In progress | TBD |
 | _(add new promises as stated during pilot)_ | | | |
 
-**ucsandman PDR:** `X.X` | **Trend:** ↑/↓/→
+**ucsandman PDR (Day 1):** `1.0` | **Overall (Gerundium):** `82.0` | **Trend:** →
 
 ---
 
@@ -78,6 +78,18 @@
 | New releases | v0.2.25 | v2.0.0 | — |
 | Issue closures | TBD | TBD | TBD |
 | Community engagement | Yes (PRs) | No | No |
+
+### Gerundium TrustVerifier Scores (Day 1 — `velocity_pdr_v1`)
+
+| Participant | PDR | Quality Score | Overall Score | Notes |
+|-------------|-----|--------------|--------------|-------|
+| JIGGAI | 1.0 | 42.0 | **82.6** | Strong quality — velocity on target |
+| star-ga | 1.0 | 10.0 | **73.0** | Low quality: small repo, no baseline velocity |
+| ucsandman / DashClaw | 1.0 | 40.0 | **82.0** | Redis delivery caught |
+| getclawe (unconfirmed) | 1.0 | 100.0 | **100.0** | Star explosion (+201) inflated quality score |
+| All others | 1.0 | 10–30 | 73–79 | Not confirmed, tracking only |
+
+_Note: Day 1 PDR = 1.0 for all agents (no broken promises yet). Quality differentiates velocity vs baseline._
 
 ---
 
