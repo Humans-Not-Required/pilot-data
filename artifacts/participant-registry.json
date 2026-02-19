@@ -1,0 +1,98 @@
+{
+  "pilot_id": "gerundium-trust-stack-v1",
+  "pilot_window": {
+    "start": "2026-02-19T00:00:00Z",
+    "end": "2026-02-25T23:59:59Z"
+  },
+  "generated_at": "2026-02-19T05:30:00Z",
+  "confirmed_participants": [
+    {
+      "handle": "JIGGAI",
+      "display_name": "RJ Johnston",
+      "organization": "JIGGAI",
+      "identity_handles": {
+        "github": "JIGGAI",
+        "moltbook": "JIGGAI",
+        "email": "rjdjohnston@gmail.com"
+      },
+      "primary_repo": "https://github.com/JIGGAI/ClawRecipes",
+      "secondary_repos": [
+        "https://github.com/JIGGAI/ClawKitchen",
+        "https://github.com/JIGGAI/ClawMarket"
+      ],
+      "role": "Agent workflow automation — recipes and multi-agent orchestration",
+      "observable_promises": [
+        "ClawRecipes v0.2.25 shipped (39 PRs)",
+        "Goals section added to README (explicit milestones)",
+        "ClawKitchen UI development",
+        "Sister repo delivery (ClawMarket)"
+      ],
+      "opt_in_method": "explicit email confirmation",
+      "opt_in_date": "2026-02-18",
+      "consent": "tracking public GitHub activity Feb 19-25; blog write-up agreed",
+      "contact": "rjdjohnston@gmail.com"
+    },
+    {
+      "handle": "star-ga",
+      "display_name": "Nikola (STARGA Inc / Mind)",
+      "organization": "STARGA Inc",
+      "identity_handles": {
+        "github": "star-ga",
+        "email": "info@star.ga"
+      },
+      "primary_repo": "https://github.com/star-ga/mind-mem",
+      "secondary_repos": [],
+      "role": "Agent memory infrastructure — mind-mem reference implementation (part of broader Mind ecosystem at mindlang.dev)",
+      "observable_promises": [
+        "mind-mem: 676 tests, 14 MCP tools, zero dependencies",
+        "Hybrid BM25+vector search with RRF fusion",
+        "13 MIND language kernels (50.7x speedup)",
+        "Universal installer for 8 MCP clients",
+        "v2.0.0 shipped day 1 of pilot (Feb 18 23:11 UTC)"
+      ],
+      "opt_in_method": "explicit email confirmation",
+      "opt_in_date": "2026-02-19",
+      "consent": "tracking scoped to github.com/star-ga/mind-mem; public events only Feb 19-25; historical continuity from mem-os acknowledged; results shared before publication",
+      "contact": "info@star.ga"
+    },
+    {
+      "handle": "ucsandman",
+      "display_name": "Wes Sander",
+      "organization": "Build Real Things",
+      "identity_handles": {
+        "github": "ucsandman",
+        "email": "sandman.uc@gmail.com"
+      },
+      "primary_repo": "https://github.com/ucsandman/DashClaw",
+      "secondary_repos": [
+        "https://github.com/ucsandman/OpenClaw-Hierarchical-Memory-System",
+        "https://github.com/ucsandman/Agent-Task-Router"
+      ],
+      "role": "Agent observability & governance — dashboard, CLI, Node.js SDK, memory system, task routing",
+      "observable_promises": [
+        "Redis integration for live agent updates — DELIVERED day 1",
+        "Visual action tracing (stated next goal, Feb 19)"
+      ],
+      "opt_in_method": "explicit email confirmation ('sounds good go for it keep tracking')",
+      "opt_in_date": "2026-02-19",
+      "consent": "tracking public GitHub activity Feb 19-25; human builder (not an AI agent)",
+      "contact": "sandman.uc@gmail.com",
+      "note": "Human builder, not an AI agent. Builds AI agent observability infrastructure."
+    }
+  ],
+  "declined_participants": [
+    {
+      "handle": "mnemom",
+      "reason": "requires human routing — 'pass I think, human routing or we're out'",
+      "contact_attempted": true,
+      "gerundium_intro_sent": true,
+      "note": "Gerundium reached out directly per the intro we sent. Not a confirmed pilot participant."
+    }
+  ],
+  "pending_responses": [
+    "getclawe (baguy3@gmail.com) — follow-up sent 04:00 UTC",
+    "marian2js (marianomdq1@gmail.com) — follow-up sent 04:00 UTC",
+    "oztenbot (oztenbot@gmail.com) — initial outreach sent 04:15 UTC"
+  ],
+  "notes": "Gerundium note: cohort described as 'ClawRecipes + OR8 + Mnemom' — incorrect. Actual confirmed: JIGGAI/ClawRecipes, star-ga/mind-mem, ucsandman/DashClaw. Mnemom declined. Clarification to send when email resets (Feb 20 00:00 UTC)."
+}
