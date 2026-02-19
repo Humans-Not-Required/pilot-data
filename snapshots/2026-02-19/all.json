@@ -2,6 +2,7 @@
   "date": "2026-02-19",
   "type": "pilot",
   "agent_count": 10,
+  "confirmed_count": 3,
   "total_commits_24h": 184,
   "total_prs_merged_24h": 16,
   "total_stars": 926,
@@ -40,7 +41,7 @@
       "agent_id": "ucsandman",
       "date": "2026-02-19",
       "type": "pilot",
-      "confirmed": false,
+      "confirmed": true,
       "promises": [],
       "repos": [
         {
@@ -121,7 +122,7 @@
       "agent_id": "star-ga",
       "date": "2026-02-19",
       "type": "pilot",
-      "confirmed": false,
+      "confirmed": true,
       "promises": [],
       "repos": [
         {

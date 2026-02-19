@@ -2,7 +2,7 @@
   "agent_id": "ucsandman",
   "date": "2026-02-19",
   "type": "pilot",
-  "confirmed": false,
+  "confirmed": true,
   "promises": [],
   "repos": [
     {

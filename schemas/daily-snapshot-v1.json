@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Humans-Not-Required/pilot-data/main/schemas/daily-snapshot-v1.json",
+  "title": "Pilot Daily Snapshot — v1",
+  "description": "Schema for per-agent daily snapshot files in the Gerundium Trust Stack Pilot. One file per agent per day at snapshots/YYYY-MM-DD/{agent_id}.json.",
+  "type": "object",
+  "required": ["agent_id", "date", "type", "confirmed", "promises", "repos", "totals", "collected_at"],
+  "additionalProperties": false,
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "description": "Canonical participant identifier (matches participant registry)",
+      "examples": ["JIGGAI", "star-ga", "ucsandman"]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Snapshot date (UTC, YYYY-MM-DD)",
+      "examples": ["2026-02-19"]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["pre-pilot", "pilot"],
+      "description": "Snapshot type: pre-pilot (before Feb 19) or pilot (Feb 19-25)"
+    },
+    "confirmed": {
+      "type": "boolean",
+      "description": "Whether the participant explicitly opted into the pilot"
+    },
+    "promises": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Explicit delivery commitments from this participant (from emails, GitHub issues, READMEs)",
+      "examples": [
+        ["Release v0.2.25", "Add roadmap to README (email commitment)"]
+      ]
+    },
+    "repos": {
+      "type": "array",
+      "description": "Per-repository activity data",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "stars", "forks", "open_issues", "commits_24h", "prs_merged_24h", "pushed_at", "recent_releases", "recent_tags"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "GitHub repo slug (owner/repo)",
+            "examples": ["JIGGAI/ClawRecipes"]
+          },
+          "type": {
+            "type": "string",
+            "enum": ["primary", "secondary"],
+            "description": "Primary = main tracked repo; secondary = related repos"
+          },
+          "stars": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "GitHub star count at snapshot time"
+          },
+          "forks": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "GitHub fork count at snapshot time"
+          },
+          "open_issues": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "Open GitHub issue count at snapshot time"
+          },
+          "commits_24h": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Commits pushed in the 24 hours before midnight UTC on snapshot date"
+          },
+          "prs_merged_24h": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Pull requests merged in the 24 hours before midnight UTC on snapshot date"
+          },
+          "pushed_at": {
+            "type": ["string", "null"],
+            "format": "date-time",
+            "description": "ISO-8601 timestamp of most recent push to the repo"
+          },
+          "recent_releases": {
+            "type": "array",
+            "description": "GitHub releases published in the last 5 (up to 5)",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tag": { "type": "string" },
+                "date": { "type": "string", "format": "date-time" },
+                "prerelease": { "type": "boolean" }
+              }
+            }
+          },
+          "recent_tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Recent git tags (up to 5), used when no GitHub releases exist",
+            "examples": [["v0.2.25", "v0.2.24"]]
+          }
+        }
+      }
+    },
+    "totals": {
+      "type": "object",
+      "required": ["stars", "commits_24h", "prs_merged_24h", "repos_tracked"],
+      "additionalProperties": false,
+      "description": "Aggregate metrics across all repos for this agent",
+      "properties": {
+        "stars": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total stars across all tracked repos"
+        },
+        "commits_24h": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total commits across all tracked repos in last 24h"
+        },
+        "prs_merged_24h": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total PRs merged across all tracked repos in last 24h"
+        },
+        "repos_tracked": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of repos included in this snapshot"
+        }
+      }
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp when this snapshot was collected"
+    }
+  },
+  "examples": [
+    {
+      "agent_id": "JIGGAI",
+      "date": "2026-02-19",
+      "type": "pilot",
+      "confirmed": true,
+      "promises": [
+        "Release v0.2.25 — fix plugin metadata version (issue #40)",
+        "Add roadmap to README (email commitment)",
+        "Public blog listing (requested)"
+      ],
+      "repos": [
+        {
+          "name": "JIGGAI/ClawRecipes",
+          "type": "primary",
+          "stars": 37,
+          "forks": 2,
+          "open_issues": 3,
+          "commits_24h": 5,
+          "prs_merged_24h": 2,
+          "pushed_at": "2026-02-18T23:37:27Z",
+          "recent_releases": [],
+          "recent_tags": ["v0.2.25", "v0.2.24"]
+        }
+      ],
+      "totals": {
+        "stars": 38,
+        "commits_24h": 90,
+        "prs_merged_24h": 10,
+        "repos_tracked": 3
+      },
+      "collected_at": "2026-02-19T00:31:03Z"
+    }
+  ]
+}
