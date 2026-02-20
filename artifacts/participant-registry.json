@@ -4,7 +4,7 @@
     "start": "2026-02-19T00:00:00Z",
     "end": "2026-02-25T23:59:59Z"
   },
-  "generated_at": "2026-02-19T05:30:00Z",
+  "generated_at": "2026-02-20T07:30:00Z",
   "confirmed_participants": [
     {
       "handle": "JIGGAI",
@@ -20,7 +20,7 @@
         "https://github.com/JIGGAI/ClawKitchen",
         "https://github.com/JIGGAI/ClawMarket"
       ],
-      "role": "Agent workflow automation — recipes and multi-agent orchestration",
+      "role": "Agent workflow automation \u2014 recipes and multi-agent orchestration",
       "observable_promises": [
         "ClawRecipes v0.2.25 shipped (39 PRs)",
         "Goals section added to README (explicit milestones)",
@@ -42,7 +42,7 @@
       },
       "primary_repo": "https://github.com/star-ga/mind-mem",
       "secondary_repos": [],
-      "role": "Agent memory infrastructure — mind-mem reference implementation (part of broader Mind ecosystem at mindlang.dev)",
+      "role": "Agent memory infrastructure \u2014 mind-mem reference implementation (part of broader Mind ecosystem at mindlang.dev)",
       "observable_promises": [
         "mind-mem: 676 tests, 14 MCP tools, zero dependencies",
         "Hybrid BM25+vector search with RRF fusion",
@@ -68,9 +68,9 @@
         "https://github.com/ucsandman/OpenClaw-Hierarchical-Memory-System",
         "https://github.com/ucsandman/Agent-Task-Router"
       ],
-      "role": "Agent observability & governance — dashboard, CLI, Node.js SDK, memory system, task routing",
+      "role": "Agent observability & governance \u2014 dashboard, CLI, Node.js SDK, memory system, task routing",
       "observable_promises": [
-        "Redis integration for live agent updates — DELIVERED day 1",
+        "Redis integration for live agent updates \u2014 DELIVERED day 1",
         "Visual action tracing (stated next goal, Feb 19)"
       ],
       "opt_in_method": "explicit email confirmation ('sounds good go for it keep tracking')",
@@ -83,16 +83,61 @@
   "declined_participants": [
     {
       "handle": "mnemom",
-      "reason": "requires human routing — 'pass I think, human routing or we're out'",
+      "reason": "requires human routing \u2014 'pass I think, human routing or we're out'",
       "contact_attempted": true,
       "gerundium_intro_sent": true,
       "note": "Gerundium reached out directly per the intro we sent. Not a confirmed pilot participant."
     }
   ],
   "pending_responses": [
-    "getclawe (baguy3@gmail.com) — follow-up sent 04:00 UTC",
-    "marian2js (marianomdq1@gmail.com) — follow-up sent 04:00 UTC",
-    "oztenbot (oztenbot@gmail.com) — initial outreach sent 04:15 UTC"
+    {
+      "note": "getclawe (baguy3@gmail.com) \u2014 follow-up sent 04:00 UTC",
+      "status": "invited_unstructured"
+    },
+    {
+      "note": "marian2js (marianomdq1@gmail.com) \u2014 follow-up sent 04:00 UTC",
+      "status": "invited_unstructured"
+    },
+    {
+      "note": "oztenbot (oztenbot@gmail.com) \u2014 initial outreach sent 04:15 UTC",
+      "status": "invited_unstructured"
+    },
+    {
+      "handle": "CoderofTheWest",
+      "display_name": "Chris Hunt",
+      "email": "livefreecotw@gmail.com",
+      "primary_repo": "https://github.com/CoderofTheWest/openclaw-plugin-continuity",
+      "secondary_repos": [
+        "https://github.com/CoderofTheWest/openclaw-plugin-stability"
+      ],
+      "role": "OpenClaw stability and continuity plugins \u2014 Shannon entropy confabulation detection",
+      "invited_at": "2026-02-20T00:10:00Z",
+      "invite_subject": "Gerundium Trust Stack Pilot \u2014 openclaw-plugin-continuity caught our attention",
+      "status": "pending_response"
+    },
+    {
+      "handle": "kevinodell",
+      "display_name": "Kevin O'Dell",
+      "email": "kevinodell25@gmail.com",
+      "primary_repo": "https://github.com/kevinodell/lily-memory-plugin",
+      "role": "Persistent memory plugin \u2014 FTS5 + vector search for OpenClaw agents",
+      "invited_at": "2026-02-20T00:10:00Z",
+      "invite_subject": "Gerundium Trust Stack Pilot \u2014 lily-memory-plugin caught our attention",
+      "status": "pending_response"
+    },
+    {
+      "handle": "Cluka-399",
+      "display_name": "Cluka-399",
+      "email": "cluka@agentmail.to",
+      "primary_repo": "https://github.com/Cluka-399/openclaw-skills-explorer",
+      "secondary_repos": [
+        "https://github.com/Cluka-399/automation-gallery"
+      ],
+      "role": "OpenClaw skills explorer + 700+ automation gallery \u2014 daily automated updates",
+      "invited_at": "2026-02-20T00:10:00Z",
+      "invite_subject": "Gerundium Trust Stack Pilot \u2014 openclaw-skills-explorer caught our attention",
+      "status": "pending_response"
+    }
   ],
-  "notes": "Gerundium note: cohort described as 'ClawRecipes + OR8 + Mnemom' — incorrect. Actual confirmed: JIGGAI/ClawRecipes, star-ga/mind-mem, ucsandman/DashClaw. Mnemom declined. Clarification to send when email resets (Feb 20 00:00 UTC)."
+  "notes": "Gerundium note: cohort described as 'ClawRecipes + OR8 + Mnemom' \u2014 incorrect. Actual confirmed: JIGGAI/ClawRecipes, star-ga/mind-mem, ucsandman/DashClaw. Mnemom declined. Clarification to send when email resets (Feb 20 00:00 UTC). | Feb 20 00:10 UTC: invites sent to CoderofTheWest, kevinodell, Cluka-399. Snapshot tracking added for all 3."
 }
