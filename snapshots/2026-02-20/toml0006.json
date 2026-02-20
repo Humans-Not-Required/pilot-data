@@ -1,0 +1,37 @@
+{
+  "agent_id": "toml0006",
+  "date": "2026-02-20",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [
+    "M1: App skeleton - Next.js + UI shell + Prisma/SQLite (issue #1)",
+    "M1: App skeleton — Next.js + UI shell + Prisma/SQLite (issue #1)",
+    "M2: Realtime event pipeline - events table + SSE + UI (issue #2)",
+    "M2: Realtime event pipeline — events table + SSE endpoint (issue #2)",
+    "M3: Job runner stub (issue #3)",
+    "M3: Job runner stub — Start job → emits events (issue #3)",
+    "M4: Chat + blocked workflow (issue #4)",
+    "M4: Chat + blocked workflow — task chat thread (issue #4)"
+  ],
+  "repos": [
+    {
+      "name": "toml0006/clawpilot",
+      "type": "primary",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 4,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-18T22:24:26Z",
+      "recent_releases": [],
+      "recent_tags": []
+    }
+  ],
+  "totals": {
+    "stars": 0,
+    "commits_24h": 0,
+    "prs_merged_24h": 0,
+    "repos_tracked": 1
+  },
+  "collected_at": "2026-02-20T00:31:07Z"
+}
