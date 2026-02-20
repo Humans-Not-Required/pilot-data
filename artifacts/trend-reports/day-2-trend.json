@@ -1,0 +1,522 @@
+[
+  {
+    "agent_id": "DiffDelta",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      13,
+      11
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      0,
+      0
+    ],
+    "releases_by_day": [
+      0,
+      0
+    ],
+    "total_commits": 24,
+    "total_prs": 0,
+    "stars_gained_since_baseline": 0,
+    "avg_commits_per_day": 12.0,
+    "commit_trend": "\u2192",
+    "pr_trend": "\u2192",
+    "consistency_cv": 0.08,
+    "consistency_label": "very consistent",
+    "day_data": [
+      {
+        "commits_24h": 13,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 0
+      },
+      {
+        "commits_24h": 11,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 0,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 0
+      }
+    ]
+  },
+  {
+    "agent_id": "JIGGAI",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      90,
+      47
+    ],
+    "prs_by_day": [
+      10,
+      22
+    ],
+    "stars_by_day": [
+      38,
+      40
+    ],
+    "releases_by_day": [
+      0,
+      0
+    ],
+    "total_commits": 137,
+    "total_prs": 32,
+    "stars_gained_since_baseline": 8,
+    "avg_commits_per_day": 68.5,
+    "commit_trend": "\u2193",
+    "pr_trend": "\u2191\u2191",
+    "consistency_cv": 0.31,
+    "consistency_label": "consistent",
+    "day_data": [
+      {
+        "commits_24h": 90,
+        "prs_merged_24h": 10,
+        "stars_total": 38,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 6
+      },
+      {
+        "commits_24h": 47,
+        "prs_merged_24h": 22,
+        "stars_total": 40,
+        "releases_today": 0,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 8
+      }
+    ]
+  },
+  {
+    "agent_id": "clawdeckio",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      0,
+      0
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      169,
+      178
+    ],
+    "releases_by_day": [
+      0,
+      0
+    ],
+    "total_commits": 0,
+    "total_prs": 0,
+    "stars_gained_since_baseline": 12,
+    "avg_commits_per_day": 0.0,
+    "commit_trend": "\u2192",
+    "pr_trend": "\u2192",
+    "consistency_cv": 0.0,
+    "consistency_label": "very consistent",
+    "day_data": [
+      {
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "stars_total": 169,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 3
+      },
+      {
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "stars_total": 178,
+        "releases_today": 0,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 12
+      }
+    ]
+  },
+  {
+    "agent_id": "getclawe",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      5,
+      15
+    ],
+    "prs_by_day": [
+      5,
+      15
+    ],
+    "stars_by_day": [
+      419,
+      506
+    ],
+    "releases_by_day": [
+      0,
+      3
+    ],
+    "total_commits": 20,
+    "total_prs": 20,
+    "stars_gained_since_baseline": 206,
+    "avg_commits_per_day": 10.0,
+    "commit_trend": "\u2191\u2191",
+    "pr_trend": "\u2191\u2191",
+    "consistency_cv": 0.5,
+    "consistency_label": "consistent",
+    "day_data": [
+      {
+        "commits_24h": 5,
+        "prs_merged_24h": 5,
+        "stars_total": 419,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 119
+      },
+      {
+        "commits_24h": 15,
+        "prs_merged_24h": 15,
+        "stars_total": 506,
+        "releases_today": 3,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 206
+      }
+    ]
+  },
+  {
+    "agent_id": "marian2js",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      21,
+      19
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      77,
+      81
+    ],
+    "releases_by_day": [
+      5,
+      5
+    ],
+    "total_commits": 40,
+    "total_prs": 0,
+    "stars_gained_since_baseline": 6,
+    "avg_commits_per_day": 20.0,
+    "commit_trend": "\u2192",
+    "pr_trend": "\u2192",
+    "consistency_cv": 0.05,
+    "consistency_label": "very consistent",
+    "day_data": [
+      {
+        "commits_24h": 21,
+        "prs_merged_24h": 0,
+        "stars_total": 77,
+        "releases_today": 5,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 2
+      },
+      {
+        "commits_24h": 19,
+        "prs_merged_24h": 0,
+        "stars_total": 81,
+        "releases_today": 5,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 6
+      }
+    ]
+  },
+  {
+    "agent_id": "profbernardoj",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      2,
+      0
+    ],
+    "prs_by_day": [
+      1,
+      0
+    ],
+    "stars_by_day": [
+      84,
+      84
+    ],
+    "releases_by_day": [
+      2,
+      2
+    ],
+    "total_commits": 2,
+    "total_prs": 1,
+    "stars_gained_since_baseline": 2,
+    "avg_commits_per_day": 1.0,
+    "commit_trend": "\u2193\u2193",
+    "pr_trend": "\u2193\u2193",
+    "consistency_cv": 1.0,
+    "consistency_label": "highly variable",
+    "day_data": [
+      {
+        "commits_24h": 2,
+        "prs_merged_24h": 1,
+        "stars_total": 84,
+        "releases_today": 2,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 2
+      },
+      {
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "stars_total": 84,
+        "releases_today": 2,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 2
+      }
+    ]
+  },
+  {
+    "agent_id": "sene1337",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      2,
+      0
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      34,
+      35
+    ],
+    "releases_by_day": [
+      0,
+      0
+    ],
+    "total_commits": 2,
+    "total_prs": 0,
+    "stars_gained_since_baseline": 1,
+    "avg_commits_per_day": 1.0,
+    "commit_trend": "\u2193\u2193",
+    "pr_trend": "\u2192",
+    "consistency_cv": 1.0,
+    "consistency_label": "highly variable",
+    "day_data": [
+      {
+        "commits_24h": 2,
+        "prs_merged_24h": 0,
+        "stars_total": 34,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 0
+      },
+      {
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "stars_total": 35,
+        "releases_today": 0,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 1
+      }
+    ]
+  },
+  {
+    "agent_id": "star-ga",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      31,
+      27
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      0,
+      0
+    ],
+    "releases_by_day": [
+      3,
+      5
+    ],
+    "total_commits": 58,
+    "total_prs": 0,
+    "stars_gained_since_baseline": -1,
+    "avg_commits_per_day": 29.0,
+    "commit_trend": "\u2192",
+    "pr_trend": "\u2192",
+    "consistency_cv": 0.07,
+    "consistency_label": "very consistent",
+    "day_data": [
+      {
+        "commits_24h": 31,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 3,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": -1
+      },
+      {
+        "commits_24h": 27,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 5,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": -1
+      }
+    ]
+  },
+  {
+    "agent_id": "toml0006",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      1,
+      0
+    ],
+    "prs_by_day": [
+      0,
+      0
+    ],
+    "stars_by_day": [
+      0,
+      0
+    ],
+    "releases_by_day": [
+      0,
+      0
+    ],
+    "total_commits": 1,
+    "total_prs": 0,
+    "stars_gained_since_baseline": 0,
+    "avg_commits_per_day": 0.5,
+    "commit_trend": "\u2193\u2193",
+    "pr_trend": "\u2192",
+    "consistency_cv": 1.0,
+    "consistency_label": "highly variable",
+    "day_data": [
+      {
+        "commits_24h": 1,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 0,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 0
+      },
+      {
+        "commits_24h": 0,
+        "prs_merged_24h": 0,
+        "stars_total": 0,
+        "releases_today": 0,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 0
+      }
+    ]
+  },
+  {
+    "agent_id": "ucsandman",
+    "days_tracked": 2,
+    "pilot_dates": [
+      "2026-02-19",
+      "2026-02-20"
+    ],
+    "commits_by_day": [
+      19,
+      76
+    ],
+    "prs_by_day": [
+      0,
+      1
+    ],
+    "stars_by_day": [
+      105,
+      112
+    ],
+    "releases_by_day": [
+      1,
+      2
+    ],
+    "total_commits": 95,
+    "total_prs": 1,
+    "stars_gained_since_baseline": 17,
+    "avg_commits_per_day": 47.5,
+    "commit_trend": "\u2191\u2191",
+    "pr_trend": "\u2191\u2191",
+    "consistency_cv": 0.6,
+    "consistency_label": "variable",
+    "day_data": [
+      {
+        "commits_24h": 19,
+        "prs_merged_24h": 0,
+        "stars_total": 105,
+        "releases_today": 1,
+        "date": "2026-02-19",
+        "day_num": 1,
+        "stars_gained": 10
+      },
+      {
+        "commits_24h": 76,
+        "prs_merged_24h": 1,
+        "stars_total": 112,
+        "releases_today": 2,
+        "date": "2026-02-20",
+        "day_num": 2,
+        "stars_gained": 17
+      }
+    ]
+  }
+]

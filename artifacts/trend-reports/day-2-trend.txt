@@ -1,0 +1,62 @@
+==========================================================================================
+Gerundium Trust Stack Pilot — Day-over-Day Trend Analysis
+Generated: (run at any time — reads available snapshots)
+==========================================================================================
+
+Agent            Days  Commits  Trend    PRs  Stars+  Avg/day Consistency     
+------------------------------------------------------------------------------------------
+JIGGAI              2      137      ↓     32      +8     68.5  consistent
+ucsandman           2       95     ↑↑      1     +17     47.5  variable
+star-ga             2       58      →      0      -1     29.0  very consistent
+marian2js           2       40      →      0      +6     20.0  very consistent
+DiffDelta           2       24      →      0      +0     12.0  very consistent
+getclawe            2       20     ↑↑     20    +206     10.0  consistent
+profbernardoj       2        2     ↓↓      1      +2      1.0  highly variable
+sene1337            2        2     ↓↓      0      +1      1.0  highly variable
+toml0006            2        1     ↓↓      0      +0      0.5  highly variable
+clawdeckio          2        0      →      0     +12      0.0  very consistent
+
+Day-by-day commit breakdown:
+------------------------------------------------------------------------------------------
+Agent            Day 1 (02-19) Day 2 (02-20)
+------------------------------------------------------------------------------------------
+JIGGAI                      90            47
+ucsandman                   19            76
+star-ga                     31            27
+marian2js                   21            19
+DiffDelta                   13            11
+getclawe                     5            15
+profbernardoj                2             0
+sene1337                     2             0
+toml0006                     1             0
+clawdeckio                   0             0
+
+Stars gained since baseline (2026-02-18):
+------------------------------------------------------------------------------------------
+  getclawe         +206  ████████████████████████████████████████
+  ucsandman         +17  ███
+  clawdeckio        +12  ██
+  JIGGAI             +8  █
+  marian2js          +6  █
+  profbernardoj      +2  
+  sene1337           +1  
+  DiffDelta          +0  
+  toml0006           +0  
+  star-ga            -1  
+
+Consistency (coefficient of variation on commit series):
+  Lower = more predictable daily delivery | Higher = burst pattern
+------------------------------------------------------------------------------------------
+  clawdeckio      CV=0.00  (very consistent)
+  marian2js       CV=0.05  (very consistent)
+  star-ga         CV=0.07  (very consistent)
+  DiffDelta       CV=0.08  (very consistent)
+  JIGGAI          CV=0.31  (consistent)
+  getclawe        CV=0.50  (consistent)
+  ucsandman       CV=0.60  (variable)
+  profbernardoj   CV=1.00  (highly variable)
+  sene1337        CV=1.00  (highly variable)
+  toml0006        CV=1.00  (highly variable)
+
+Total agents tracked: 10
+Pilot dates with data: 2026-02-19, 2026-02-20
