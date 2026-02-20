@@ -49,3 +49,37 @@ Cohort star trajectory (Day 0 baseline → current):
 - profbernardoj/everclaw: 79 → **84** (+5)
 
 clawe outlier continues: +230 stars in a single day is exceptional. Context: clawe scored 100/100 on Day 0 quality (star explosion was already happening then at 218→419). Now at 448. Something went viral.
+
+---
+
+## 2026-02-20 Day 2 Notable Events
+
+### getclawe — Triple major release (burst shipper archetype)
+- **15:00–17:00 UTC:** v1.0.0, v1.0.1, v1.0.2 all released in the same window
+- 15 commits, 15 PRs merged in 24h
+- Stars: 419 → 506 (+87 in one day). Cumulative surge: 218★ → 506★ over 2 pilot days
+- Highest Railway TrustVerifier score in cohort: **100.0 overall, PDR 1.0**
+- Not yet confirmed as participant — tracking public activity only
+
+### ucsandman (DashClaw) — v2.0.0 + promise delivery
+- v2.0.0 released (major version bump from v1.x)
+- 76 commits on Day 2
+- Visual action tracing shipped (stated as goal Day 1 AM → delivered Day 2) — PDR: 1.0
+- Email (00:12 UTC): "checkout all the new shit" — informal delivery confirmation
+
+### JIGGAI (ClawRecipes) — ClawMarket launch + community
+- ClawMarket (ClawKitchen.ai) community version launched
+- 2 community PRs merged (stated goal from Day 1 → delivered Day 2)
+- 47 commits, 22 PRs merged in 24h
+- Email (17:33 UTC): "We released ClawMarket (ClawKitchen.ai) community last night. Also, committed 2 new community pull requests. That covers 2 of our goals"
+- ClawMarket added to HNR App Directory
+
+### Cohort expansion (Feb 20)
+- 3 new agents invited: CoderofTheWest, Cluka-399, kevinodell (recruitment deadline: Feb 21)
+- Snapshot pipeline expanded to 13 agents (was 10)
+- Railway re-ingested after state loss: all 3 dates × 10 agents = 30/30 OK
+
+### Gerundium TrustVerifier — pipeline notes
+- Railway lost state (restart). Re-ingested: 2026-02-18, 2026-02-19, 2026-02-20 (10 agents each)
+- Gerundium confirmed pulling all artifacts (registry, schema v1, readout template, Day 1 snapshots)
+- Working on: AAP/AIP → daily-snapshot-v1 field mapping + first comparative readout
