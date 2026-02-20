@@ -83,3 +83,35 @@ clawe outlier continues: +230 stars in a single day is exceptional. Context: cla
 - Railway lost state (restart). Re-ingested: 2026-02-18, 2026-02-19, 2026-02-20 (10 agents each)
 - Gerundium confirmed pulling all artifacts (registry, schema v1, readout template, Day 1 snapshots)
 - Working on: AAP/AIP → daily-snapshot-v1 field mapping + first comparative readout
+
+---
+
+## 2026-02-20 Day 3 — Early Signals (12:00 UTC, mid-day)
+
+**Observed since Day 2 snapshot cutoff (00:30 UTC Feb 20):**
+
+### ucsandman (DashClaw) — local admin auth shipped
+- `feat: implement local admin password authentication so OAuth is optional`
+- Docs updated: "local password auth as the primary path"
+- OAuth now optional — major accessibility improvement for DashClaw
+- Also: security alert fix (clear-text logging)
+- Day 3 delivery velocity maintaining; promise-backed pattern continues
+
+### JIGGAI (ClawRecipes) — Day 3 PRs merged
+- `recipes: recipe-defined cronJobs (reconciled on scaffold)` — PRs merged
+- `scaffold-team: add shared-context schema + role guardrails`
+- `clawcipes: scaffold-team smoke regression check`
+- Building toward agent workflow automation infrastructure; Day 3 momentum strong
+
+### getclawe (clawe) — burst recovery, stars still growing
+- No new commits since Day 2 burst (expected post-triple-release recovery)
+- Stars: 506 (Day 2) → 513 (mid-Day 3) = +7 more
+- Cumulative since baseline: +295 stars (218→513 over 2.5 pilot days)
+- Burst shipper archetype confirmed: release then organic growth continues
+
+### marian2js (OpenGoat) — star growth
+- Current: 83 ★ (vs 69 in prior tracking)
+- Growth continuing without explicit burst event
+
+---
+*Observations at 12:00 UTC Feb 20. Day 3 snapshot fires 00:30 UTC Feb 21.*
