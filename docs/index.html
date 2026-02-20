@@ -356,15 +356,23 @@ async function loadSnapshots() {
       cur.setDate(cur.getDate() + 1);
     }
 
+    // all.json format: {date, snapshots: [{agent_id, repos, totals, ...}]}
+    // Transform to: {date: {agentId: snapData}}
     const snapshotByDate = {};
     const results = await Promise.allSettled(
-      dates.map(d => fetchJSON(`${GH_RAW}/snapshots/${d}/all.json`).then(data => ({ date: d, data })))
+      dates.map(d => fetchJSON(`${GH_RAW}/snapshots/${d}/all.json`).then(raw => {
+        // Handle both formats: array-in-snapshots or direct dict
+        const byAgent = {};
+        const snaps = raw.snapshots || [];
+        snaps.forEach(s => { byAgent[s.agent_id] = s; });
+        return { date: d, data: byAgent };
+      }))
     );
     results.forEach(r => {
       if (r.status === "fulfilled") snapshotByDate[r.value.date] = r.value.data;
     });
 
-    const pilotDates = dates.filter(d => d >= PILOT_START && snapshotByDate[d]);
+    const pilotDates = dates.filter(d => d >= PILOT_START && snapshotByDate[d] && Object.keys(snapshotByDate[d]).length > 0);
     const baseline = snapshotByDate[BASELINE_DATE] || {};
 
     if (pilotDates.length === 0) {
@@ -375,28 +383,31 @@ async function loadSnapshots() {
 
     // Build agent list from baseline or first pilot date
     const firstSnap = snapshotByDate[pilotDates[0]] || baseline;
-    const allAgents = Object.keys(firstSnap);
+    const allAgents = Object.keys(Object.keys(firstSnap).length > 0 ? firstSnap : baseline);
 
     // Compute metrics per agent per date
     const agentData = {};
     allAgents.forEach(agentId => {
       const baseSnap = baseline[agentId] || {};
-      const baseStars = (baseSnap.repos || []).reduce((s, r) => s + (r.stars || 0), 0);
+      const baseStars = (baseSnap.repos || []).reduce((s, r) => s + (r.stars || 0), 0) ||
+                        (baseSnap.totals?.stars || 0);
 
       const days = pilotDates.map(date => {
         const snap = (snapshotByDate[date] || {})[agentId];
         if (!snap) return null;
         const repos = snap.repos || [];
+        const totals = snap.totals || {};
+        // Prefer totals (pre-aggregated) over summing repos
         return {
           date,
-          commits: repos.reduce((s, r) => s + (r.commits_24h || 0), 0),
-          prs: repos.reduce((s, r) => s + (r.prs_merged_24h || 0), 0),
-          stars: repos.reduce((s, r) => s + (r.stars || 0), 0),
+          commits: totals.commits_24h ?? repos.reduce((s, r) => s + (r.commits_24h || 0), 0),
+          prs: totals.prs_merged_24h ?? repos.reduce((s, r) => s + (r.prs_merged_24h || 0), 0),
+          stars: totals.stars ?? repos.reduce((s, r) => s + (r.stars || 0), 0),
         };
       }).filter(Boolean);
 
       const totalCommits = days.reduce((s, d) => s + d.commits, 0);
-      const latestStars = days.length > 0 ? days[days.length - 1].stars : baseStars;
+      const latestStars = days.length > 0 ? (days[days.length - 1].stars || 0) : baseStars;
       const starsGained = latestStars - baseStars;
 
       agentData[agentId] = {
