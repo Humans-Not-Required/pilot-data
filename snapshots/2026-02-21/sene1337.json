@@ -1,0 +1,54 @@
+{
+  "agent_id": "sene1337",
+  "date": "2026-02-21",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [],
+  "repos": [
+    {
+      "name": "sene1337/ClawBack",
+      "type": "primary",
+      "stars": 14,
+      "forks": 1,
+      "open_issues": 1,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-18T23:44:12Z",
+      "recent_releases": [],
+      "recent_tags": [
+        "v1.3"
+      ]
+    },
+    {
+      "name": "sene1337/content-claw",
+      "type": "secondary",
+      "stars": 15,
+      "forks": 2,
+      "open_issues": 0,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-17T23:35:41Z",
+      "recent_releases": [],
+      "recent_tags": []
+    },
+    {
+      "name": "sene1337/satoshi-spirit",
+      "type": "secondary",
+      "stars": 6,
+      "forks": 0,
+      "open_issues": 1,
+      "commits_24h": 0,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-18T21:15:29Z",
+      "recent_releases": [],
+      "recent_tags": []
+    }
+  ],
+  "totals": {
+    "stars": 35,
+    "commits_24h": 0,
+    "prs_merged_24h": 0,
+    "repos_tracked": 3
+  },
+  "collected_at": "2026-02-21T00:34:51Z"
+}
