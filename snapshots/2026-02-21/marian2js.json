@@ -11,7 +11,7 @@
     {
       "name": "marian2js/opengoat",
       "type": "primary",
-      "stars": 96,
+      "stars": 97,
       "forks": 6,
       "open_issues": 1,
       "commits_24h": 13,
@@ -54,10 +54,10 @@
     }
   ],
   "totals": {
-    "stars": 96,
+    "stars": 97,
     "commits_24h": 13,
     "prs_merged_24h": 0,
     "repos_tracked": 1
   },
-  "collected_at": "2026-02-21T00:35:15Z"
+  "collected_at": "2026-02-21T01:05:08Z"
 }

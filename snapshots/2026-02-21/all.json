@@ -4,7 +4,7 @@
   "agent_count": 13,
   "total_commits_24h": 140,
   "total_prs_merged_24h": 18,
-  "total_stars": 1098,
+  "total_stars": 1099,
   "snapshots": [
     {
       "agent_id": "getclawe",
@@ -54,7 +54,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:34:38Z"
+      "collected_at": "2026-02-21T01:04:31Z"
     },
     {
       "agent_id": "ucsandman",
@@ -112,7 +112,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 2
       },
-      "collected_at": "2026-02-21T00:34:41Z"
+      "collected_at": "2026-02-21T01:04:33Z"
     },
     {
       "agent_id": "clawdeckio",
@@ -144,7 +144,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:34:46Z"
+      "collected_at": "2026-02-21T01:04:38Z"
     },
     {
       "agent_id": "star-ga",
@@ -204,7 +204,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:34:48Z"
+      "collected_at": "2026-02-21T01:04:40Z"
     },
     {
       "agent_id": "sene1337",
@@ -258,7 +258,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-21T00:34:51Z"
+      "collected_at": "2026-02-21T01:04:43Z"
     },
     {
       "agent_id": "DiffDelta",
@@ -310,7 +310,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-21T00:34:58Z"
+      "collected_at": "2026-02-21T01:04:50Z"
     },
     {
       "agent_id": "JIGGAI",
@@ -377,7 +377,7 @@
         "prs_merged_24h": 18,
         "repos_tracked": 3
       },
-      "collected_at": "2026-02-21T00:35:05Z"
+      "collected_at": "2026-02-21T01:04:57Z"
     },
     {
       "agent_id": "profbernardoj",
@@ -422,7 +422,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:35:13Z"
+      "collected_at": "2026-02-21T01:05:05Z"
     },
     {
       "agent_id": "marian2js",
@@ -437,7 +437,7 @@
         {
           "name": "marian2js/opengoat",
           "type": "primary",
-          "stars": 96,
+          "stars": 97,
           "forks": 6,
           "open_issues": 1,
           "commits_24h": 13,
@@ -480,12 +480,12 @@
         }
       ],
       "totals": {
-        "stars": 96,
+        "stars": 97,
         "commits_24h": 13,
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:35:15Z"
+      "collected_at": "2026-02-21T01:05:08Z"
     },
     {
       "agent_id": "toml0006",
@@ -522,7 +522,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:35:18Z"
+      "collected_at": "2026-02-21T01:05:10Z"
     },
     {
       "agent_id": "CoderofTheWest",
@@ -562,7 +562,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 2
       },
-      "collected_at": "2026-02-21T00:35:20Z"
+      "collected_at": "2026-02-21T01:05:13Z"
     },
     {
       "agent_id": "Cluka-399",
@@ -602,7 +602,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 2
       },
-      "collected_at": "2026-02-21T00:35:24Z"
+      "collected_at": "2026-02-21T01:05:17Z"
     },
     {
       "agent_id": "kevinodell",
@@ -630,7 +630,7 @@
         "prs_merged_24h": 0,
         "repos_tracked": 1
       },
-      "collected_at": "2026-02-21T00:35:29Z"
+      "collected_at": "2026-02-21T01:05:22Z"
     }
   ]
 }
