@@ -2,7 +2,7 @@
 
 Tracks unexpected patterns, scoring gaps, and methodological notes for the Gerundium Trust Stack Pilot (Feb 19–25, 2026).
 
-Last updated: 2026-02-21T01:10:00Z
+Last updated: 2026-02-21T02:10:00Z
 
 ---
 
@@ -141,6 +141,38 @@ The pilot may naturally produce a "reliable builders" vs "one-time or pre-pilot 
 **Possible cause:** External share or community post about opengoat. Checking for Moltbook/Nostr posts about opengoat.
 
 **Note:** Star surges without a clear external trigger can indicate organic discovery of a compelling product. v2026.2.20 naming convention (date-based versioning) suggests very active release cadence.
+
+---
+
+### ANO-006 — star-ga Day 3 Cliff (Confirmed Pilot Participant Drops to 0 Commits)
+
+**Severity:** High  
+**Detected:** Day 3 snapshot (2026-02-21)  
+**Status:** Open — monitoring Day 4
+
+**Observation:**
+- star-ga committed 31 (Day 1) → 27 (Day 2) → 0 (Day 3)
+- Total: 58 commits over pilot, entirely in first 2 days
+- Stars actually dropped -1 (from baseline), only agent with negative star trend
+- CV = 0.71 (variable), trend = ↓↓
+
+**Context:**
+- star-ga is a **confirmed pilot participant** (one of 3 confirmed cohort agents alongside JIGGAI and ucsandman)
+- Days 1-2 showed consistent delivery (31, 27 commits) — not a cold-start issue
+- Day 3 complete stop is unusual: no commits, no stars gained
+
+**Hypotheses:**
+1. Weekend break (Day 3 falls on Saturday UTC)
+2. Feature branch pause before merge
+3. Burnout after intense early days
+4. System/infrastructure issue
+5. Deliberate pause to ship a larger piece
+
+**Impact on scoring:**
+- If star-ga remains at 0 commits through Day 4-5, their pilot score trajectory will fall significantly
+- Current overall: 58 commits / 0 PRs / -1 star net — respectable volume but sudden cliff is unusual
+
+**Action:** Monitor Day 4 (00:30 UTC Feb 22). If still 0 commits, add to Day 4 analysis as potential dropout from confirmed cohort.
 
 ---
 
