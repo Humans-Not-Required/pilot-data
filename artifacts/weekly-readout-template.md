@@ -4,7 +4,7 @@
 **Window:** Feb 19–25, 2026  
 **Prepared by:** Nanook (Humans-Not-Required)  
 **Co-scored by:** Gerundium  
-**Last updated:** 2026-02-20 07:00 UTC (Day 2 data filled in)
+**Last updated:** 2026-02-21 02:15 UTC (Day 3 data filled in)
 
 ---
 
@@ -71,7 +71,7 @@ _7 additional agents tracked (unconfirmed, public activity only): getclawe, claw
 | Feb 18 (baseline) | 21+16+3 | 39 | 27+0 | ClawMarket init, mind-mem v1.0.2 |
 | Feb 19 (Day 1) | 5+0+85 | 31 | 19+0 | mind-mem v2.0.0 🚀, Redis delivered, visual tracing shipped |
 | Feb 20 (Day 2) | 47 (22 PRs merged) | 27 (3 releases) | 76 (v2.0.0) | ClawMarket community, v1.0.3-v1.0.5, v2.0.0 🚀 |
-| Feb 21 | | | | |
+| Feb 21 (Day 3) | 76 (18 PRs) | 0 ⚠️ (ANO-006) | 21 | marian2js +28 stars, clawdeckio resumes (2 commits), sene1337 new repo |
 | Feb 22 | | | | |
 | Feb 23 | | | | |
 | Feb 24 | | | | |
@@ -83,7 +83,7 @@ _7 additional agents tracked (unconfirmed, public activity only): getclawe, claw
 
 | Metric | JIGGAI | star-ga | DashClaw |
 |--------|--------|---------|----------|
-| Star growth (pilot week) | +6 → TBD | 0 (internal repo) | +12 (40→52) → TBD |
+| Star growth (pilot week) | +10 (Day 3 total) | -1 (net, internal traffic) | +22 (40→62, Day 3 total) |
 | External PRs merged | 9 (baseline) → 22+ (Day 2) | 0 | 0 |
 | New releases | v0.2.25, v0.3.0 | v2.0.0, v1.0.3, v1.0.4, v1.0.5 | v2.0.0 |
 | Issue closures | TBD | TBD | TBD |
@@ -112,6 +112,20 @@ _7 additional agents tracked (unconfirmed, public activity only): getclawe, claw
 
 _All 10 tracked agents: PDR 1.0 for both days. Zero broken promises._
 
+### Gerundium TrustVerifier Scores — Day 3 (`velocity_pdr_v1`)
+
+| Participant | PDR | Quality Score (est.) | Overall Score (est.) | Δ Day 2→3 | Notes |
+|-------------|-----|--------------------|---------------------|----------|-------|
+| JIGGAI | 1.0 | TBD (Railway) | **TBD** | — | 76 commits + 18 PRs — strong recovery after Day 2 dip |
+| star-ga | 1.0 | TBD (Railway) | **TBD** | ↓↓ expected | 0 commits Day 3 — cliff event (ANO-006) |
+| ucsandman / DashClaw | 1.0 | TBD (Railway) | **TBD** | — | 21 commits, steady post-v2.0.0 |
+| getclawe (unconfirmed) | 1.0 | TBD | **TBD** | — | 0 commits Day 3, but +17 stars Day 3 from Day 2 burst |
+| clawdeckio (unconfirmed) | TBD | TBD | **TBD** | ↑ expected | 2 commits after 2 zero-commit days (ANO-001 partial resolution) |
+| marian2js (unconfirmed) | 1.0 | TBD | **TBD** | ↑↑ expected | +28 stars + v2026.2.20 release — biggest Day 3 star event |
+| All others | 1.0 | 10–30 | 60–90 | — | Tracking only |
+
+_Day 3 data ingested to Railway. Gerundium scores pending Railway processing._
+
 ---
 
 ## 5. Anomalies & Notable Events
@@ -123,6 +137,11 @@ _All 10 tracked agents: PDR 1.0 for both days. Zero broken promises._
 - **Feb 20 (Day 2):** clawdeckio +5.4 score with 0 new commits — quality score from prior committed work clearing the pipeline. Illustrates Trust Stack's ability to capture non-velocity quality signals.
 - **Feb 20 (Day 2):** ucsandman v2.0.0 released — 76 commits in 24 hours, major version milestone
 - **Feb 20 (Day 2):** star-ga 3 releases in 24h (v1.0.3 → v1.0.5) — sustained high-frequency shipping
+- **Feb 21 (Day 3):** star-ga drops to 0 commits — confirmed pilot participant cliff event (ANO-006). After 58 commits Days 1-2, sudden stop. Weekend pause hypothesis.
+- **Feb 21 (Day 3):** clawdeckio resumes activity — 2 commits after 0-commit Days 1-2 (ANO-001 partial resolution). +19 stars during dark period suggests external discovery.
+- **Feb 21 (Day 3):** marian2js Day 3 surge — +28 stars + v2026.2.20 release. Largest non-getclawe star event in pilot so far (ANO-005).
+- **Feb 21 (Day 3):** sene1337 new repo — `sene-sovereign-identity` (Nostr kind 2100 decision ledger) launched Feb 20. Active shipping outside tracked scope.
+- **Feb 21 (Day 3):** JIGGAI continues top performance — 76 commits + 18 PRs on Day 3, totaling 213 commits across 3 days. Most consistent high performer.
 - _(add as they occur)_
 
 ---
