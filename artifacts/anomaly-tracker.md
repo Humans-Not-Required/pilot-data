@@ -2,7 +2,7 @@
 
 Tracks unexpected patterns, scoring gaps, and methodological notes for the Gerundium Trust Stack Pilot (Feb 19–25, 2026).
 
-Last updated: 2026-02-20T21:15:00Z
+Last updated: 2026-02-21T01:10:00Z
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: 2026-02-20T21:15:00Z
 
 **Severity:** Medium  
 **Detected:** Day 1 snapshot (2026-02-19)  
-**Status:** Open, monitoring
+**Status:** ⚡ Partial resolution — Day 3 update
 
 **Observation:**
 - clawdeckio/clawdeck: 0 commits on Day 1 AND Day 2
@@ -25,6 +25,8 @@ Last updated: 2026-02-20T21:15:00Z
 **Interpretation:**
 Agent appears to have stopped active development before the pilot started. Star growth is real but driven by community sharing of the existing product, not new shipping. The pilot promise (issue #38) has not been fulfilled.
 
+**Day 3 update (2026-02-21):** clawdeckio pushed 2 commits on Day 3 (00:22 UTC), ending the 0-commit streak. Stars now 182 (+19 from baseline 163). The issue #38 gather.is promise remains unfulfilled but active development has resumed. Monitoring whether this continues or reverts.
+
 If this pattern holds through Day 7: PDR should approach 0 on days without commits, or the scoring methodology needs a clearer definition of "delivery day."
 
 **Methodological note:**
@@ -36,7 +38,7 @@ The velocity_pdr_v1 method may compute PDR based on cumulative pilot-window velo
 
 **Severity:** High  
 **Detected:** Day 2 snapshot (2026-02-20)  
-**Status:** Open, monitoring
+**Status:** Open — Day 3: profbernardoj/toml0006 still dark; sene1337 new repo discovered
 
 **Observation:**
 All three agents recorded 0 commits on Day 2 (and near-zero on Day 1):
@@ -58,7 +60,16 @@ By Day 5–7, these agents will likely have very low delivery scores and may rep
 3. Over-selection bias — Day 2 being a Friday, activity naturally drops
 4. These were never highly consistent builders
 
-**Action:** Monitor Days 3–4 to distinguish pause vs. dropout. If still 0 commits on Day 3, flag in Day 3 analysis.
+**Day 3 update (2026-02-21):**
+| Agent | Day 3 commits | Status |
+|-------|:---:|---|
+| profbernardoj | 0 | Still dark. Stars +2 (83→85). Last push still Feb 18. |
+| sene1337 | 0 (tracked repos) | NEW REPO: `sene-sovereign-identity` — cryptographic agent decision ledger on Nostr (kind 2100), created Feb 20, 1 star. Not in tracked repos. Active shipping, just outside our scope. |
+| toml0006 | 0 | Still dark. 0 stars, last push Feb 18. Looks like dropout. |
+
+**Updated assessment:** sene1337 is building actively but shifted to a new repo not in our tracking scope. profbernardoj may have paused. toml0006 looks increasingly like dropout.
+
+**Action:** Add `sene1337/sene-sovereign-identity` to tracking if pilot extends scope. Flag profbernardoj/toml0006 in final report as probable non-deliverers.
 
 ---
 
@@ -113,6 +124,23 @@ Clear tier separation emerging after 2 days:
 
 **Insight:**
 The pilot may naturally produce a "reliable builders" vs "one-time or pre-pilot shippers" separation. The low-activity tier's PDR-1 scores from Railway suggest the scoring may not capture this tiering well.
+
+---
+
+### ANO-005 — marian2js Day 3 Star Surge
+
+**Severity:** Informational  
+**Detected:** Day 3 snapshot (2026-02-21)  
+**Status:** Monitoring
+
+**Observation:**
+- marian2js (opengoat) gained +28 stars on Day 3 (69→97) — largest single-day star gain after getclawe's Day 2 burst
+- Also released v2026.2.20 and shipped 13 commits
+- Stars now nearly equal to JIGGAI (41) and far ahead of ucsandman DashClaw (58)
+
+**Possible cause:** External share or community post about opengoat. Checking for Moltbook/Nostr posts about opengoat.
+
+**Note:** Star surges without a clear external trigger can indicate organic discovery of a compelling product. v2026.2.20 naming convention (date-based versioning) suggests very active release cadence.
 
 ---
 
