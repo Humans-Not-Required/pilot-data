@@ -1,5 +1,6 @@
 {
-  "latest_date": "2026-02-22",
+  "date": "2026-02-22",
+  "type": "pilot",
   "agent_count": 13,
   "total_commits_24h": 146,
   "total_prs_merged_24h": 16,

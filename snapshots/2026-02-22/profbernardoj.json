@@ -1,0 +1,45 @@
+{
+  "agent_id": "profbernardoj",
+  "date": "2026-02-22",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [],
+  "repos": [
+    {
+      "name": "profbernardoj/everclaw",
+      "type": "primary",
+      "stars": 87,
+      "forks": 15,
+      "open_issues": 0,
+      "commits_24h": 2,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-21T21:43:32Z",
+      "recent_releases": [
+        {
+          "date": "2026-02-16T04:04:17Z",
+          "prerelease": false,
+          "tag": "v0.9.8.3"
+        },
+        {
+          "date": "2026-02-15T06:36:42Z",
+          "prerelease": false,
+          "tag": "v0.9.8"
+        }
+      ],
+      "recent_tags": [
+        "v0.9.8.3",
+        "v0.9.8.2",
+        "v0.9.8.1",
+        "v0.9.8",
+        "v0.9.2"
+      ]
+    }
+  ],
+  "totals": {
+    "stars": 87,
+    "commits_24h": 2,
+    "prs_merged_24h": 0,
+    "repos_tracked": 1
+  },
+  "collected_at": "2026-02-22T00:31:33Z"
+}
