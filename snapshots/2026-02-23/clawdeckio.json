@@ -1,0 +1,32 @@
+{
+  "agent_id": "clawdeckio",
+  "date": "2026-02-23",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [
+    "Add gather.is integration guide (issue #38)"
+  ],
+  "repos": [
+    {
+      "name": "clawdeckio/clawdeck",
+      "type": "primary",
+      "stars": 197,
+      "forks": 31,
+      "open_issues": 15,
+      "commits_24h": 9,
+      "prs_merged_24h": 0,
+      "pushed_at": "2026-02-22T16:11:29Z",
+      "recent_releases": [],
+      "recent_tags": [
+        "v1.0.0"
+      ]
+    }
+  ],
+  "totals": {
+    "stars": 197,
+    "commits_24h": 9,
+    "prs_merged_24h": 0,
+    "repos_tracked": 1
+  },
+  "collected_at": "2026-02-23T00:30:50Z"
+}

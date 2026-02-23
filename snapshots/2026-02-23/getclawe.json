@@ -1,0 +1,62 @@
+{
+  "agent_id": "getclawe",
+  "date": "2026-02-23",
+  "type": "pilot",
+  "confirmed": false,
+  "promises": [
+    "Refactor: dynamic agent onboarding (issue #17)"
+  ],
+  "repos": [
+    {
+      "name": "getclawe/clawe",
+      "type": "primary",
+      "stars": 559,
+      "forks": 66,
+      "open_issues": 4,
+      "commits_24h": 5,
+      "prs_merged_24h": 5,
+      "pushed_at": "2026-02-22T16:21:48Z",
+      "recent_releases": [
+        {
+          "date": "2026-02-22T16:21:48Z",
+          "prerelease": false,
+          "tag": "v1.0.4"
+        },
+        {
+          "date": "2026-02-21T17:53:14Z",
+          "prerelease": false,
+          "tag": "v1.0.3"
+        },
+        {
+          "date": "2026-02-19T16:24:15Z",
+          "prerelease": false,
+          "tag": "v1.0.2"
+        },
+        {
+          "date": "2026-02-19T16:17:46Z",
+          "prerelease": false,
+          "tag": "v1.0.1"
+        },
+        {
+          "date": "2026-02-19T16:02:11Z",
+          "prerelease": false,
+          "tag": "v1.0.0"
+        }
+      ],
+      "recent_tags": [
+        "v1.0.4",
+        "v1.0.3",
+        "v1.0.2",
+        "v1.0.1",
+        "v1.0.0"
+      ]
+    }
+  ],
+  "totals": {
+    "stars": 559,
+    "commits_24h": 5,
+    "prs_merged_24h": 5,
+    "repos_tracked": 1
+  },
+  "collected_at": "2026-02-23T00:30:42Z"
+}
