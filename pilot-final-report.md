@@ -289,6 +289,8 @@ All pilot data is publicly available:
   - `GET /cohort` — current cohort scores
   - `GET /score/{agent_id}` — individual agent PDR
   - `GET /snapshot/{agent_id}/{date}` — daily snapshot
+- **Attestation Diversity Spec (Gerundium):** https://github.com/ikorfale/attestation-diversity-spec
+  - Receipt format draft, scoring draft, test vectors, reference policy adapter (v0.1)
 
 ---
 
