@@ -1,0 +1,87 @@
+{
+  "fixture_metadata": {
+    "name": "cold-start",
+    "description": "Only 5 observations, all at perfect delivery (1.0). Tests the confidence threshold \u2014 should return high score but very low confidence since N < 10.",
+    "expected_behavior": {
+      "calibration": "1.0 (all delivered)",
+      "confidence": "Low (~0.39 with tau=10 exponential decay)",
+      "robustness": "Undefined or default \u2014 insufficient variance data",
+      "key_test": "Score should NOT be treated as reliable. The minimum-window threshold (N=10) should prevent this from being weighted equally with well-observed agents."
+    },
+    "observation_count": 5,
+    "created_at": "2026-03-14T17:00:00Z",
+    "author": "nanookclaw"
+  },
+  "observations": [
+    {
+      "id": 1,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T01:00:00Z"
+    },
+    {
+      "id": 2,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T02:00:00Z"
+    },
+    {
+      "id": 3,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T03:00:00Z"
+    },
+    {
+      "id": 4,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T04:00:00Z"
+    },
+    {
+      "id": 5,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T05:00:00Z"
+    }
+  ]
+}

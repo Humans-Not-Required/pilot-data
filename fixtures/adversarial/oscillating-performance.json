@@ -1,0 +1,521 @@
+{
+  "fixture_metadata": {
+    "name": "oscillating-performance",
+    "description": "Alternating between high (3/3 delivery) and low (~0.3 delivery) reliability in blocks of 5. Tests robustness scoring \u2014 high variance should produce low robustness despite decent average calibration.",
+    "expected_behavior": {
+      "calibration": "~0.65 (average across all observations)",
+      "robustness": "Low \u2014 high variance between blocks",
+      "adaptation": "None \u2014 no improvement trend, just oscillation",
+      "key_test": "Robustness dimension should flag this agent as unreliable despite decent average"
+    },
+    "observation_count": 40,
+    "created_at": "2026-03-14T17:00:00Z",
+    "author": "nanookclaw"
+  },
+  "observations": [
+    {
+      "id": 1,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T01:00:00Z"
+    },
+    {
+      "id": 2,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T02:00:00Z"
+    },
+    {
+      "id": 3,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T03:00:00Z"
+    },
+    {
+      "id": 4,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T04:00:00Z"
+    },
+    {
+      "id": 5,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T05:00:00Z"
+    },
+    {
+      "id": 6,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s"
+      ],
+      "timestamp": "2026-02-19T06:00:00Z"
+    },
+    {
+      "id": 7,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "complete_task"
+      ],
+      "timestamp": "2026-02-19T07:00:00Z"
+    },
+    {
+      "id": 8,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-19T08:00:00Z"
+    },
+    {
+      "id": 9,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T09:00:00Z"
+    },
+    {
+      "id": 10,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-19T10:00:00Z"
+    },
+    {
+      "id": 11,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T11:00:00Z"
+    },
+    {
+      "id": 12,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T12:00:00Z"
+    },
+    {
+      "id": 13,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T13:00:00Z"
+    },
+    {
+      "id": 14,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T14:00:00Z"
+    },
+    {
+      "id": 15,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T15:00:00Z"
+    },
+    {
+      "id": 16,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s"
+      ],
+      "timestamp": "2026-02-19T16:00:00Z"
+    },
+    {
+      "id": 17,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "complete_task"
+      ],
+      "timestamp": "2026-02-19T17:00:00Z"
+    },
+    {
+      "id": 18,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-19T18:00:00Z"
+    },
+    {
+      "id": 19,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T19:00:00Z"
+    },
+    {
+      "id": 20,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-19T20:00:00Z"
+    },
+    {
+      "id": 21,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T21:00:00Z"
+    },
+    {
+      "id": 22,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T22:00:00Z"
+    },
+    {
+      "id": 23,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-19T23:00:00Z"
+    },
+    {
+      "id": 24,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T00:00:00Z"
+    },
+    {
+      "id": 25,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T01:00:00Z"
+    },
+    {
+      "id": 26,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s"
+      ],
+      "timestamp": "2026-02-20T02:00:00Z"
+    },
+    {
+      "id": 27,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "complete_task"
+      ],
+      "timestamp": "2026-02-20T03:00:00Z"
+    },
+    {
+      "id": 28,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-20T04:00:00Z"
+    },
+    {
+      "id": 29,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T05:00:00Z"
+    },
+    {
+      "id": 30,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-20T06:00:00Z"
+    },
+    {
+      "id": 31,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T07:00:00Z"
+    },
+    {
+      "id": 32,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T08:00:00Z"
+    },
+    {
+      "id": 33,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T09:00:00Z"
+    },
+    {
+      "id": 34,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T10:00:00Z"
+    },
+    {
+      "id": 35,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T11:00:00Z"
+    },
+    {
+      "id": 36,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "respond_within_5s"
+      ],
+      "timestamp": "2026-02-20T12:00:00Z"
+    },
+    {
+      "id": 37,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "complete_task"
+      ],
+      "timestamp": "2026-02-20T13:00:00Z"
+    },
+    {
+      "id": 38,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-20T14:00:00Z"
+    },
+    {
+      "id": 39,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [
+        "report_status"
+      ],
+      "timestamp": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": 40,
+      "promised": [
+        "respond_within_5s",
+        "complete_task",
+        "report_status"
+      ],
+      "delivered": [],
+      "timestamp": "2026-02-20T16:00:00Z"
+    }
+  ]
+}
